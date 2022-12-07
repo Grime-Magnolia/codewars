@@ -6,4 +6,3 @@ for a in range(len(inp)):
     if a <= rand:
         inp[a] = '#'
 print(inp)
-#ok?
