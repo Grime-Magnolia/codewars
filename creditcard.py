@@ -1,4 +1,3 @@
-import random
 inp = list(input('-> '))
 leninp = len(inp)
 b = ''
