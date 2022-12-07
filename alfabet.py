@@ -1,4 +1,4 @@
-a = list('abcdefghijklmnopqrstuvwxyz \'')
+a = list('abcdefghijklmnopqrstuvwxyz \'1234567890-=_+`~!@#$$%%^&*(){}[]|\\;:\"\'/?<>,.')
 b = input('give your string(all lower)\n: ')
 c = []
 e = ''
