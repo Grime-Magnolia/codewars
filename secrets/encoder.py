@@ -12,5 +12,6 @@ class encode():
             if count > len(list(self.allkeys)):
                 count-=len(list(self.allkeys))
             returnman+=self.allkeys[list(self.allkeys)[count]]
+        return returnman
 key = random.randint(1,99999)
-encode.make(input('your encoded string->'),)
+print(f'key is {key}\nyour string is {encode.make(input('your encoded string->'),key)}')
